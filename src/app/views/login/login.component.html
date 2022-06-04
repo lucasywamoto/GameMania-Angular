@@ -1,0 +1,17 @@
+<main>
+    <div class="login-container">
+        <form action="" class="login-form" (ngSubmit)="receberDados()">
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="email@email.com" [(ngModel)]="userModel.email">
+            </div>
+            <div>
+                <label for="senha">Password</label>
+                <input type="password" name="password" id="senha" placeholder="Senha" [(ngModel)]="userModel.password">
+            </div>
+            <div>
+                <input class="form-enviar" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</main>

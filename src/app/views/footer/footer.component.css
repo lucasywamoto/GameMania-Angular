@@ -1,0 +1,96 @@
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 0 32px 0 ;
+}
+
+.subfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0066FF;
+    height: 32px;
+    font-size:10px;
+    font-weight: 700;
+}
+
+.footer-grid a {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer-grid div {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.social-footer {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+.social-footer a>img {
+    height: 24px;
+    padding-right: 8px;
+}
+
+.social-footer img {
+    height: 40px;
+}
+
+.social-footer a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1.5em;
+}
+
+.menu-footer {
+    display: flex;
+    flex-flow: column;
+    font-weight: 700;
+}
+
+.footer-nav {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 110px;
+}
+
+.footer-nav a {
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-right: 1.5em;;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-grid {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    
+    }
+
+    .departamentos-footer {
+        flex-basis: 60%;
+    }
+
+    .footer-nav {
+        flex-basis: auto;
+    }
+    .atendimento-footer {
+        flex-basis: 60%;
+    }
+
+    .social-footer {
+        flex-basis: auto;
+    }
+}
